@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');    
+ 
+ body{
+    margin: 0;
+ }
+ 
+ .primeira_pag{
+    background: url(../images/imagem1.PNG);
+    background-size: cover;
+    min-height: 100vh;
+    h2{
+        font-family: 'Chewy', cursive ;
+        font-size: 30px ;
+    }
+ }
+
+.primeiro_botao {
+    margin-left: 15%;
+    margin-top: 30%;
+    background-color: #F8BA7A;
+    color: #303f80; 
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    }
