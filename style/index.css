@@ -5,48 +5,68 @@ html {
 }
 
 body {
-   margin: 0;
-   padding: 0;   
-   background: linear-gradient(to right, #c8aee4, #9753b4)
+  margin: 0;
+  padding: 0;   
+  background: linear-gradient(to right, #c8aee4, #9753b4);
 }
 
-
 section {
-   align-items: center;
-   padding: 20px;
-   gap: 80px;
-   display: flex;
-   flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  gap: 80px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .menu {
-   display: flex;
-   justify-content: center;
-   gap: 80px;
-   background-color: rgb(143, 44, 173);
-   padding: 15px 0;
-   position: sticky;
-   top: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: rgb(143, 44, 173);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
 }
 
 .menu a {
-   text-decoration: none;
-   font-weight: bold;
-   font-size: 17px;
-   color: rgb(255, 255, 255);
-   transition: 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
 }
 
 .menu a:hover {
-   color: rgb(0, 0, 0);
-   transform: scale(1.1);
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
 }
 
-h1{
-   font-family: 'Nunito Sans';
-   padding: 5px 40px;
-   font-size: 50px;
-   color:rgb(0, 0, 0);
+.lang {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.lang a {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  background: #eee;
+  color: #333;
+  transition: 0.3s;
+}
+
+.lang a:hover {
+  background: #ccc;
+  transform: scale(1.1);
+}
+
+h1 {
+  font-family: 'Nunito Sans';
+  padding: 5px 40px;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
 }  
 
 .oque {
@@ -91,7 +111,7 @@ h1{
   border: 4px solid rgb(71, 1, 92);
   border-radius: 15px;
 }
- 
+
 .estrutura {
   display: flex;
   flex-direction: column;
@@ -128,144 +148,90 @@ h1{
   box-sizing: border-box;
 }
 
-.escrita3{
-   background-color: #855e96;
-   border-style: solid;
-   border-radius: 20px;
-   border-color: rgb(71, 1, 92);
-   border-width: 4px;
-   padding-top: 40px;
-   padding-right: 40px;
-   font-family: 'Nunito Sans';
-   padding-left: 50px;
-   font-size: 25px;
-   color: rgb(0, 0, 0);
-   flex-direction: column;
-   justify-content: center;
-   gap: 10px;
-   padding-bottom: 40px;
+.escrita3,
+.escritainterna,
+.escritainterna2,
+.escrita4,
+.escrita5 {
+  background-color: #855e96;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgb(71, 1, 92);
+  border-width: 4px;
+  font-family: 'Nunito Sans';
+  color: rgb(0, 0, 0);
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 50px;
+  padding-bottom: 40px;
 }
 
-.escritainterna{
-   background-color: #855e96;
-   border-style: solid;
-   border-radius: 20px;
-   border-color: rgb(71, 1, 92);
-   border-width: 4px;
-   padding-top: 40px;
-   padding-right: 40px;
-   font-family: 'Nunito Sans';
-   padding-left: 50px;
-   font-size: 25px;
-   color: rgb(0, 0, 0);
-   flex-direction: column;
-   justify-content: center;
-   gap: 10px;
-   padding-bottom: 40px;
+.escrita3,
+.escritainterna,
+.escritainterna2 {
+  font-size: 25px;
 }
 
-.escritainterna2{
-   background-color: #855e96;
-   border-style: solid;
-   border-radius: 20px;
-   border-color: rgb(71, 1, 92);
-   border-width: 4px;
-   padding-top: 40px;
-   padding-right: 40px;
-   font-family: 'Nunito Sans';
-   padding-left: 50px;
-   font-size: 25px;
-   color: rgb(0, 0, 0);
-   flex-direction: column;
-   justify-content: center;
-   gap: 10px;
-   padding-bottom: 40px;
+.escrita4,
+.escrita5 {
+  font-size: 25px;
+  width: 40%;
 }
 
-.escrita4{
-   width: 40%;
-   background-color: #855e96;
-   border-style: solid;
-   border-radius: 20px;
-   border-color: rgb(71, 1, 92);
-   border-width: 4px;
-   font-family: 'Nunito Sans';
-   font-size: 25px;
-   color: rgb(0, 0, 0);
-   padding-bottom: 40px;
-}
-.conteudo4{
-   margin: 50px;
+.conteudo4,
+.conteudo5 {
+  margin: 50px;
 }
 
-.escrita5{
-   width: 40%        ;
-   background-color: #855e96;
-   border-style: solid;
-   border-radius: 20px;
-   border-color: rgb(71, 1, 92);
-   border-width: 4px;
-   font-family: 'Nunito  Sans';
-   font-size: 25px;
-   color: rgb(0, 0, 0);
-   padding-bottom: 40px;
-}
-.conteudo5{
-   margin: 50px;
+.tip {
+  padding-right: 50%;
 }
 
-.tip{
-   padding-right: 50%;
+.escrita6 {
+  background-color: #855e96;
+  border: 4px solid rgb(71, 1, 92);
+  border-radius: 20px;
+  padding: 40px 50px;
+  font-family: 'Nunito Sans';
+  font-size: 25px;
+  color: black;
+  width: 100%;
 }
 
 footer {
-  min-height: 100vh; 
+  background-color: rgb(143, 44, 173);
+  font-family: 'Nunito Sans';
+  font-size: 20px;
+  min-height: auto; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 20px 40px;
   text-align: center;
+  color: white;
 }
 
-ol{
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   padding: 0px;
+footer a {
+  font-weight: bold;
+  color: white; 
+  transition: 0.3s;
 }
 
-.escrita6{
-   background-color: #855e96;
-   border-style: solid;
-   border-radius: 20px;
-   border-color: rgb(71, 1, 92);
-   border-width: 4px;
-   padding-top: 40px;
-   padding-right: 40px;
-   font-family: 'Nunito Sans';
-   padding-left: 50px;
-   font-size: 25px;
-   color: rgb(0, 0, 0);
-   flex-direction: column;
-   justify-content: center;
-   gap: 10px;
-   padding-bottom: 40px;
+footer a:hover {
+  color: #000000;
 }
 
-footer{
-   background-color: rgb(143, 44, 173) ;
-   font-family: 'Nunito Sans';
-   font-size: 30px;
-   height: 50px;
-   min-height: 100vh; 
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   padding: 40px;
-   text-align: center;
+ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0px;
 }
+
 @media (max-width: 1024px) {
   section,
   .oque,
@@ -321,9 +287,18 @@ footer{
     gap: 20px;
     padding: 0;
   }
+
+  .lang {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .lang a {
+    padding: 4px 8px;
+    font-size: 16px;
+  }
 }
 
-/* Telas até 600px */
 @media (max-width: 600px) {
   h1,
   .texto-completo1 h1,
@@ -359,5 +334,10 @@ footer{
 
   footer {
     padding: 20px;
+  }
+
+  .lang a {
+    padding: 3px 6px;
+    font-size: 14px;
   }
 }
